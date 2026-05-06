@@ -1,2 +1,13 @@
-# sales-forecasting-system
-End-to-end time series forecasting system to predict 8 weeks of state-wise sales using ARIMA, Prophet, XGBoost, and LSTM. Includes data preprocessing, feature engineering, model selection, and FastAPI-based REST API for serving predictions.
+# Sales Forecasting System
+
+This project predicts next 8 weeks sales using multiple models:
+- ARIMA
+- Prophet
+- XGBoost
+- LSTM
+
+Includes API using FastAPI.
+
+## Run
+pip install -r requirements.txt
+uvicorn main:app --reload
